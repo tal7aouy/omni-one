@@ -1,0 +1,54 @@
+{
+  "name": "omni-one",
+  "displayName": "omni-one",
+  "description": "A dark theme for Visual Studio Code",
+  "author": "Mhammed Talhaouy<tal7aouy@gmail.com>",
+  "publisher": "tal7aouy",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.68.0"
+  },
+  "homepage": "https://github.com/tal7aouy/omni-one",
+  "maintainers": [
+    "Mhammed Talhaouy <tal7aouy@gmail.com>"
+  ],
+  "license": "MIT",
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "Omni",
+    "Omni one",
+    "Theme",
+    "Italic",
+    "Vivid Colors",
+    "Color Scheme",
+    "One Dark"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tal7aouy/omni-one"
+  },
+  "bugs": {
+    "url": "https://github.com/tal7aouy/omni-one/issues"
+  },
+  "icon": "icon.png",
+  "scripts": {
+    "build": "vsce package"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Omni One",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Omni One-color-theme.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "vsce": "^2.9.2"
+  }
+}
