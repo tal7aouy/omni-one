@@ -90,7 +90,6 @@
     "editorGroup.focusedEmptyBorder": "#121212",
     "editorGroupHeader.noTabsBackground": "#1b1b1b",
     "editorGroupHeader.tabsBackground": "#121212",
-    "editorGroupHeader.tabsBorder": "#1b1b1b",
 
     "editorGutter.addedBackground": "#cbf075",
     "editorGutter.background": "#1b1b1b",
@@ -335,7 +334,7 @@
     "terminal.ansiRed": "#f37f97",
     "terminal.ansiWhite": "#bebec1",
     "terminal.ansiYellow": "#f2a272",
-    "terminal.background": "#101010",
+    "terminal.background": "#121212",
     "terminal.foreground": "#94a3a5",
     "terminal.selectionBackground": "#48b9c750",
     "terminalCursor.background": "#00000000",
@@ -368,7 +367,8 @@
       "name": "Comment",
       "scope": ["comment", "string.comment"],
       "settings": {
-        "foreground": "#676f7d"
+        "foreground": "#676f7d",
+        "fontStyle": "italic"
       }
     },
     {
@@ -442,7 +442,8 @@
         "keyword.operator.constructor"
       ],
       "settings": {
-        "foreground": "#e06c75"
+        "foreground": "#e06c75",
+        "fontStyle": "italic"
       }
     },
     {
@@ -463,7 +464,8 @@
       "name": "Types",
       "scope": "storage.type",
       "settings": {
-        "foreground": "#56b6c2"
+        "foreground": "#56b6c2",
+        "fontStyle": "italic"
       }
     },
     {
@@ -571,7 +573,8 @@
       "name": "Tag Attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#98c379"
+        "foreground": "#98c379",
+        "fontStyle": "italic"
       }
     },
     {
