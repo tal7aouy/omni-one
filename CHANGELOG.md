@@ -11,3 +11,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Add italic 
 - change termainal background
+## "1.2.0"
+
+- add cursor color
+- remove border
